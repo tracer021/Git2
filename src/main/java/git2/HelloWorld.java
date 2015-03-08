@@ -7,7 +7,7 @@ public class HelloWorld {
 	public String greetings() {
 //		System.out.println("foo");
 //		System.out.println("Hello World");
-		return "Hello World";
+		return "Hello world. How are you?";
 	}
 
 }
