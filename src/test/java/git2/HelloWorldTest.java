@@ -17,5 +17,9 @@ public class HelloWorldTest {
 	public void getDateReturnsTheLatestDate() {
 		assertNotNull(classUnderTest.getCurrentDate());
 	}
+	
+	public void getLocationReturnsMakatiString() {
+		assertEquals("Makati", classUnderTest.getLocation());
+	}
 
 }

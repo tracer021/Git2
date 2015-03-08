@@ -15,5 +15,9 @@ public class HelloWorld {
 	public Date getCurrentDate() {
 		return new Date();
 	}
+	
+	public String getLocation() {
+		return "Makati";
+	}
 
 }
