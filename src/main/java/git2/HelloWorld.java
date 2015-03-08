@@ -4,9 +4,10 @@ public class HelloWorld {
 	
 	private String name;
 	
-	public static void main(String[] args) {
-		System.out.println("foo");
-		System.out.println("Hello World");
+	public String greetings() {
+//		System.out.println("foo");
+//		System.out.println("Hello World");
+		return "Hello World";
 	}
 
 }
