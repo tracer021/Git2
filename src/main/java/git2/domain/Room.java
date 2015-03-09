@@ -1,5 +1,7 @@
 package git2.domain;
 
+import java.util.Date;
+
 public class Room {
 
 	private Long id;
@@ -7,6 +9,19 @@ public class Room {
 	private String name;
 	
 	private Table table;
+	
+	private Date dateCreated;
+	
+	
+	public void prePersist() {
+	  if (dateCreated == null) {
+		  dateCreated = new Date();
+	  }
+	}
+	
+	public Date getDateCreated() {
+		return dateCreated;
+	}
 	
 	public Long getId() {
 		return id;
@@ -19,5 +34,7 @@ public class Room {
 	public Table getTable() {
 		return table;
 	}
+	
+	
 	
 }
