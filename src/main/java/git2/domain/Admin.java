@@ -1,5 +1,7 @@
 package git2.domain;
 
+import java.util.Date;
+
 public class Admin {
 	
 	private Long id; 
@@ -9,6 +11,12 @@ public class Admin {
 	private String password;
 	
 	private Integer level;
+	
+	private Date dateCreated;
+	
+	public Date getDateCreated() {
+		return dateCreated;
+	}
 	
 	public String getPassword() {
 		return password;
