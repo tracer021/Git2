@@ -6,7 +6,18 @@ public class Admin {
 	
 	private String userName;
 	
+	private String password;
 	
+	private Integer level;
+	
+	public String getPassword() {
+		return password;
+	}
+
+	public Integer getLevel() {
+		return level;
+	}
+
 	public Long getId() {
 		return id;
 	}
